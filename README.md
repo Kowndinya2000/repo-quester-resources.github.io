@@ -35,6 +35,7 @@ Format to provide token can be viewed in the file.
 > 8. Initialize the database
 ````
 chmod +x *sh
+sed -i -e 's/\r$//' initialize.sh
 ./initialize.sh
 ````
 > 9. Run the script to analyze the repositories
@@ -42,6 +43,7 @@ chmod +x *sh
 ./run.sh
 ````
 > 10. Check the results in the database file ```repo_quester.db```
+
 > 11. To re-run the analysis without modyfing repository information
 ````
 chmod +x *sh
@@ -56,7 +58,7 @@ chmod +x *sh
 ````
 > 13. To run a particular repository.
 ````
-For example, to analyze repository with repo_id = 2 :
+For example, to analyze repository with repo_id = 2 : run the below two commands
 chmod +x script2.sh
 ./script2.sh
 ````
