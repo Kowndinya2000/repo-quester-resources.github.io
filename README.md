@@ -42,17 +42,23 @@ chmod +x *sh
 ./run.sh
 ````
 > 10. Check the results in the database file ```repo_quester.db```
-
-> 11. To re-run the analysis without modyfing repository information (url & language)
+> 11. To re-run the analysis without modyfing repository information
 ````
 chmod +x *sh
 ./clean.sh
+./run.sh
 ````
-> 11. To empty the tool information.
+> 12. To empty the tool information.
 ````
 chmod +x *sh
 ./empty.sh
 (This also deletes the database file. Only retains the usable tool template)
+````
+> 13. To run a particular repository.
+````
+For example, to analyze repository with repo_id = 2 :
+chmod +x script2.sh
+./script2.sh
 ````
 
 
