@@ -50,11 +50,12 @@ chmod +x *sh
 ./clean.sh
 ./run.sh
 ````
-> 12. To empty the tool information.
+> 12. To empty the repository information and results.
 ````
 chmod +x *sh
 ./empty.sh
 (This also deletes the database file. Only retains the usable tool template)
+Follow the steps 4-9 again.  
 ````
 > 13. To run a particular repository.
 ````
