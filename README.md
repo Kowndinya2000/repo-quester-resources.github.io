@@ -24,7 +24,7 @@ A sample of 265 repository languages are present already in the file.
 > 6. Open the file ```repo_ids``` 
 ````
 A sample of 265 repository ids are present already in the file.
-To generate ids automatically. run the command: ## python3 generate_ids.py
+To generate ids automatically. run the command: python3 generate_ids.py
 ````
 > 7. Open the file ```tokens.py``` 
 ````
