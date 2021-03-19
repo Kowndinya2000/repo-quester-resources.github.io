@@ -67,9 +67,22 @@ chmod +x script2.sh
 > Open the file ```repo_quester.db``` 
 >> Database file could be viewed in DB Browser for SQLite (download link: https://sqlitebrowser.org/)
 >>> Table: ```repoquester_results```
+
 > 14. To select a repository "Microsoft/IEDiagnosticsAdapter" use the below command: 
 ````
-SELECT * FROM repoquester_results WHERE url in ("Microsoft/IEDiagnosticsAdapter");
+SELECT * FROM repoquester_results WHERE repository in ("Microsoft/IEDiagnosticsAdapter");
 ````
+> 15. To select a set of metrics for the repository "Microsoft/IEDiagnosticsAdapter" 
+>> For example, to select metrics: community, continuous_integration and license use the below command:
+````
+SELECT community,continuous_integration,license FROM repoquester_results WHERE repository in ("Microsoft/IEDiagnosticsAdapter");
+````
+> 16. The results table can be exported in ```CSV```, ```JSON``` and ```sql``` file formats 
+````
+Click on File->Export-> Database to SQL file
+                     -> Table(s) as CSV file
+                     -> Table(s) to JSON
+````
+
 
 
