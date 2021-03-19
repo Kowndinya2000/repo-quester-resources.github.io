@@ -24,12 +24,12 @@ A sample of 265 repository languages are present already in the file.
 > 6. Open the file ```repo_ids``` 
 ````
 A sample of 265 repository ids are present already in the file.
-To generate ids automatically, run the command: ```python3 generate_ids.py```
+To generate ids automatically, run the command: python3 generate_ids.py
 ````
 > 7. Open the file ```tokens.py``` 
 ````
 Alteast provide one Github Personal Access Token. 
-Format to provide is already presented in the file.
+Format to provide token can be viewed in the file.
 ````
 
 > 8. Initialize the database
@@ -42,5 +42,16 @@ chmod +x *sh
 ./run.sh
 ````
 > 10. Check the results in the database file ```repo_quester.db```
+> 11. To re-run the analysis without modyfing repository information
+````
+chmod +x *sh
+./clean.sh
+````
+> 11. To empty the tool information.
+````
+chmod +x *sh
+./empty.sh
+(This also deletes the database file. Only retains the usable tool template)
+````
 
 
