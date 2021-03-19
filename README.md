@@ -42,7 +42,8 @@ chmod +x *sh
 ./run.sh
 ````
 > 10. Check the results in the database file ```repo_quester.db```
-> 11. To re-run the analysis without modyfing repository information
+
+> 11. To re-run the analysis without modyfing repository information (url & language)
 ````
 chmod +x *sh
 ./clean.sh
