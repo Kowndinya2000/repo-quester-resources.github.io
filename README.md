@@ -5,11 +5,11 @@ pip -r requirements.txt
 ````
 > 2. Download ```cloc```
 ````
-[download-cloc](https://github.com/AlDanial/cloc/tree/1.88#install-via-package-manager)
+- [download-cloc](https://github.com/AlDanial/cloc/tree/1.88#install-via-package-manager)
 ````
 > 3. Download ```Ack```
 ```
-[download-ack](https://beyondgrep.com/install/)
+- [download-ack](https://beyondgrep.com/install/)
 ```
 > 4. Open the file ```repo_urls``` 
 ````
