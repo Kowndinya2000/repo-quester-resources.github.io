@@ -28,7 +28,8 @@ To generate ids automatically. run the command: ## python3 generate_ids.py
 ````
 > 7. Open the file tokens.py 
 ````
-Alteast provide one Github Personal Access Token. Format to provide is already presented in the file.
+Alteast provide one Github Personal Access Token. 
+Format to provide is already presented in the file.
 ````
 
 > 8. Initialize the database
@@ -40,6 +41,6 @@ chmod +x *sh
 ````
 ./run.sh
 ````
-> 10. Check the results in the database file ````repo_quester.db```
+> 10. Check the results in the database file ```repo_quester.db```
 
 
