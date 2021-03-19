@@ -63,7 +63,7 @@ For example, to analyze repository with repo_id = 2 : run the below two commands
 chmod +x script2.sh
 ./script2.sh
 ````
-## Commands to query the database (refer to file connect.py that contains the schema)
+## Commands to query the database (refer to file connect.py to refer to schema)
 > Open the file ```repo_quester.db``` 
 >> Database file could be viewed in DB Browser for SQLite (download link: https://sqlitebrowser.org/)
 >>> Table: ```repoquester_results```
@@ -77,12 +77,14 @@ SELECT * FROM repoquester_results WHERE repository in ("Microsoft/IEDiagnosticsA
 ````
 SELECT community,continuous_integration,license FROM repoquester_results WHERE repository in ("Microsoft/IEDiagnosticsAdapter");
 ````
-> 16. The results table can be exported in ```CSV```, ```JSON``` and ```sql``` file formats 
+> 16. The results table can be exported to ```CSV```, ```JSON``` and ```sql``` file formats 
 ````
+In the DB Browser for SQLite application:
 Click on File->Export-> Database to SQL file
                      -> Table(s) as CSV file
                      -> Table(s) to JSON
 ````
+![alt text](https://ibb.co/RS8zFV0)
 
 
 
