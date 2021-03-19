@@ -5,7 +5,7 @@ pip -r requirements.txt
 ````
 > 2. Download ```cloc```
 ````
-- ![download-cloc](https://github.com/AlDanial/cloc/tree/1.88#install-via-package-manager)
+- <a href="https://github.com/AlDanial/cloc/tree/1.88#install-via-package-manager">download-cloc</a>
 ````
 > 3. Download ```Ack```
 ```
