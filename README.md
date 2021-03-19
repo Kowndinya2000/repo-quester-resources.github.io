@@ -71,6 +71,7 @@ chmod +x script2.sh
 > 14. To select a repository "Microsoft/IEDiagnosticsAdapter" use the below command: 
 ````
 SELECT * FROM repoquester_results WHERE repository in ("Microsoft/IEDiagnosticsAdapter");
+![Command Cell](https://kowndinya2000.github.io/repo-quester-resources.github.io/sql_command_cell.png)
 ````
 > 15. To select a set of metrics for the repository "Microsoft/IEDiagnosticsAdapter" 
 >> For example, to select metrics: community, continuous_integration and license use the below command:
@@ -84,7 +85,7 @@ Click on File->Export-> Database to SQL file
                      -> Table(s) as CSV file
                      -> Table(s) to JSON
 ````
-![alt text](https://kowndinya2000.github.io/repo-quester-resources.github.io/export2.png)
+![Export Results](https://kowndinya2000.github.io/repo-quester-resources.github.io/export2.png)
 
 
 
