@@ -84,7 +84,7 @@ Click on File->Export-> Database to SQL file
                      -> Table(s) as CSV file
                      -> Table(s) to JSON
 ````
-![alt text](https://ibb.co/RS8zFV0)
+![alt text](https://kowndinya2000.github.io/repo-quester-resources.github.io/export2.png)
 
 
 
