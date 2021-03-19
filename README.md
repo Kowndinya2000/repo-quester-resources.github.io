@@ -63,5 +63,13 @@ For example, to analyze repository with repo_id = 2 : run the below two commands
 chmod +x script2.sh
 ./script2.sh
 ````
+# Commands to query the database (refer to file connect.py that contains the schema)
+> Open the file ```repo_quester.db``` 
+>> (Database file could be viewed in DB Browser for SQLite (download link: https://sqlitebrowser.org/)
+>> Table: ```repoquester_results```
+> 14. To select a repository "Microsoft/IEDiagnosticsAdapter" use the below command: 
+````
+SELECT * FROM repoquester_results WHERE url in ("Microsoft/IEDiagnosticsAdapter");
+````
 
 
